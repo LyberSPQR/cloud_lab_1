@@ -8,7 +8,7 @@ CultureInfo.CurrentCulture = CultureInfo.InvariantCulture;
 try
 {
     //Selevt the policy here:
-    RRC.Abstractions.IRequestPolicy requestPolicy = new TSSHBRequestPolicy();
+    RRC.Abstractions.IRequestPolicy requestPolicy = new KrutRundRequestPolicy();
 
     var options = RunnerConsole.ReadOptions(args);
     if (options is null) return 0;

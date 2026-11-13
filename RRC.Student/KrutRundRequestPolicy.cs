@@ -2,7 +2,7 @@
 
 namespace RRC.Student;
 
-public sealed class TSSHBRequestPolicy : IRequestPolicy
+public sealed class KrutRundRequestPolicy : IRequestPolicy
 {
     private const int MaxAttempts = 3;
 
